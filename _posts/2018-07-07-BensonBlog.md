@@ -47,7 +47,7 @@ The list of stations that should be canvassed are as follows:
  ----------------- | -------------- | -------------- 
  Grand Central Station | Grand Central Station | Grand Central Station
  Union Square Station | Union Square Station | Union Square Station
- | | 23 Street | 23 Street
- | | Penn Station | Penn Station
- | | | Herald Square
- | | | 59 Street / Lexington
+ || 23 Street | 23 Street
+ || Penn Station | Penn Station
+ ||| Herald Square
+ ||| 59 Street / Lexington
