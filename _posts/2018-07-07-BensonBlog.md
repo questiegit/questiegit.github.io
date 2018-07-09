@@ -25,16 +25,29 @@ fields:
 Our methodology, at a high level, consisted of the following steps:
 1. Identify the top MTA stations by riderhsip
 2. Weigh the above criteria to determine the final ranking of stations:
-    - Ridership volume: 0.4
-    - %age of female population: 0.2
-    - Proximity of tech companies: 0.2
-    - Level of education: 0.15
-    - Proximity of Universities: 0.05
+    - Ridership volume: 40%
+    - %age of female population: 20%
+    - Proximity of tech companies: 20%
+    - Level of education: 15%
+    - Proximity of Universities: 5%
 3. Provide recommendations that can be accommodate changing constraints:
-    - 1 station with specific days of the week that will maximize the probability of attracting donors and attendees to the gala
-    - 3 stations if the non-profit has a larger team to work with
+    - 2 stations with specific days of the week that will maximize the probability of attracting donors and attendees to the gala
+    - 4 stations if the non-profit has a larger team to work with
     - Complete list of ranked stations if multiple teams are available to do the marketing
 
 # CONCLUSION #
-Waiting on Eric!! :smiley:
+Based on our analysis, my team concluded that the non-profit concentrate on the busiest days of the week for their marketing efforts.  These days are:
+**1. Tuesday**
+**2. Wednesday**
+**3. Thursday**
 
+The list of stations that should be canvassed are as follows:
+
+Minimum Resources | More Resources | Many Resources
+-----------------   --------------   --------------
+Grand Central Station | Grand Central Station | Grand Central Station
+Union Square Station | Union Square Station | Union Square Station
+ | 23 Street | 23 Street
+ | Penn Station | Penn Station
+ | | Herald Square
+ | | 59 Street/Lexington
