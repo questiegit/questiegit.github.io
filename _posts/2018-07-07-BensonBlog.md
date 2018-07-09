@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 1 @ Metis Data Science Bootcamp: Project Benson!
+title: Week 1 at Metis Data Science Bootcamp: Project Benson!
 ---
 
 Monday 7/2/18 marked the start of the journey into Data Science with Metis.  We are a cohort of 14 people, of varying industry experience and backgrounds.  As we learned primarily about 
