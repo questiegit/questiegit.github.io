@@ -43,11 +43,7 @@ Based on our analysis, my team concluded that the non-profit concentrate on the 
 
 The list of stations that should be canvassed are as follows:
 
-Minimum Resources | More Resources | Many Resources
------------------   --------------   --------------
-Grand Central Station | Grand Central Station | Grand Central Station
-Union Square Station | Union Square Station | Union Square Station
- | 23 Street | 23 Street
- | Penn Station | Penn Station
- | | Herald Square
- | | 59 Street/Lexington
+ Minimum Resources | More Resources | Many Resources 
+ ----------------- | -------------- | -------------- 
+ Grand Central Station | Grand Central Station | Grand Central Station
+ Union Square Station | Union Square Station | Union Square Station
