@@ -63,23 +63,23 @@ The list of stations that should be canvassed are as follows:
       <td>Union Square Station</td>
     </tr>
     <tr>
-      <td> </td>
+      <td></td>
       <td>23 Street</td>
       <td>23 Street</td>
     </tr>
     <tr>
-      <td> </td>
+      <td></td>
       <td>Penn Station</td>
       <td>Penn Station</td>
     </tr>
     <tr>
-      <td> </td>
-      <td> </td>
+      <td></td>
+      <td></td>
       <td>Herald Square</td>
     </tr>
     <tr>
-      <td> </td>
-      <td> </td>
+      <td></td>
+      <td></td>
       <td>59 Street / Lexington</td>
     </tr>
   </tbody>
