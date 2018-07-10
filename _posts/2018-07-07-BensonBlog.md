@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 1 at Metis Data Science Bootcamp: Project Benson!
+title: Week 1 at Metis Data Science Bootcamp - Project Benson
 ---
 
 Monday 7/2/18 marked the start of the journey into Data Science with Metis.  We are a cohort of 14 people, of varying industry experience and backgrounds.  As we learned primarily about 
@@ -43,11 +43,44 @@ Based on our analysis, my team concluded that the non-profit concentrate on the 
 
 The list of stations that should be canvassed are as follows:
 
- Minimum Resources | More Resources | Many Resources 
- ----------------- | -------------- | -------------- 
- Grand Central Station | Grand Central Station | Grand Central Station
- Union Square Station | Union Square Station | Union Square Station
- || 23 Street | 23 Street
- || Penn Station | Penn Station
- ||| Herald Square
- ||| 59 Street / Lexington
+<table>
+  <thead>
+    <tr>
+      <th>Minimum Resources</th>
+      <th>More Resources</th>
+      <th>Many Resources</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Grand Central Station</td>
+      <td>Grand Central Station</td>
+      <td>Grand Central Station</td>
+    </tr>
+    <tr>
+      <td>Union Square Station</td>
+      <td>Union Square Station</td>
+      <td>Union Square Station</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>23 Street</td>
+      <td>23 Street</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Penn Station</td>
+      <td>Penn Station</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Herald Square</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>59 Street / Lexington</td>
+    </tr>
+  </tbody>
+</table>
