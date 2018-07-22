@@ -56,7 +56,7 @@ Now it was time to try and reduce the number of factors in the regression model 
 The first four factors had a strong positive correlation, while the last one had a strong negative correlation to the sales price.  The following diagram shows the correlations of the 
 various attributes with sales price.  I chose the factors to the left of the left red line, and to the right of the right red line.
 
-<img src="correlation1.jpg" width="100" height="100">
+<img src="./correlation1.jpg" width="100" height="100">
 
 # THE RESULTS: K.I.S.S. model
 
@@ -96,7 +96,7 @@ improved.
 
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
-The 'K.I.S.S.' model | Factors: 5 | Prediction error (RMSE): $42,338
+The 'K.I.S.S.' model (linear, untuned) | Factors: 5 | Prediction error (RMSE): $42,338
 | | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
 The 'Kitchen Sink' model (linear, tuned with Ridge regression) | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
 | | | Reality Check (Adj. R<sup>2</sup>): 28%
