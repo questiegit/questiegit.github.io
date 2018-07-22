@@ -30,7 +30,7 @@ Basically the above model can explain 90% of the price variance of the data it i
 of factors the model is controlling for, it is also picking up a lot of random noise in its correlations.  When this model tries to predict using a previously unseen set of housing 
 attributes, its predictions will be significantly off!
 
-+ Can we improve this model?
+*Can we improve this model?*
 I tried a couple of different regression techniques to see if I could tune the model to make a more realistic prediction:
 Model Type | Characteristics | Trustworthiness
 Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
