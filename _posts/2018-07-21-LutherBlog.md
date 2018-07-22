@@ -21,6 +21,29 @@ My plan for the project was the following:
 
 # RESULTS: The Kitchen Sink model
 
+<table>
+  <thead>
+    <tr>
+      <th>Model Type</th>
+      <th>Characteristics</th>
+      <th>Trustworthiness</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>The 'Kitchen Sink' model</td>
+      <td>Factors: 219</td>
+      <td>Prediction error (RMSE): $24,362</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Explanatory Power (R<sup>2</sup>): 90%</td>
+      <td>Reality Check (Adj. R<sup>2</sup>): -5.4%</td>
+    </tr>
+  </tbody>
+</table>
+
+
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'Kitchen Sink' model | Factors: 219 | Prediction error (RMSE): $24,362
