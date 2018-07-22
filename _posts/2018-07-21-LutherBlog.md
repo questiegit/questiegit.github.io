@@ -31,7 +31,9 @@ of factors the model is controlling for, it is also picking up a lot of random n
 attributes, its predictions will be significantly off!
 
 *Can we improve this model?*
+
 I tried a couple of different regression techniques to see if I could tune the model to make a more realistic prediction:
+
 Model Type | Characteristics | Trustworthiness
 Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
 | | | Reality Check (Adj. R<sup>2</sup2>): -87.7%
