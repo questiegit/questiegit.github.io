@@ -24,5 +24,15 @@ My plan for the project was the following:
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'Kitchen Sink' model | Factors: 219 | Prediction error (RMSE): $24,362
-| | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>
+| | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>): -5.4%
+
+Basically the above model can explain 90% of the price variance of the data it is being trained on, and predict housing price with an error of +/- $24,000.  However, due to the large number 
+of factors the model is controlling for, it is also picking up a lot of random noise in its correlations.  When this model tries to predict using a previously unseen set of housing 
+attributes, its predictions will be significantly off!
+
++ Can we improve this model?
+I tried a couple of different regression techniques to see if I could tune the model to make a more realistic prediction:
+Model Type | Characteristics | Trustworthiness
+Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
+| | | Reality Check (Adj. R<sup>2</sup2>): -87.7%
 
