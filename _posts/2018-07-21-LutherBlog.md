@@ -24,5 +24,5 @@ My plan for the project was the following:
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'Kitchen Sink' model | Factors: 219 | Prediction error (RMSE): $24,362
- | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>
+| | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>
 
