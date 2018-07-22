@@ -37,5 +37,7 @@ I tried a couple of different regression techniques to see if I could tune the m
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
-| | | Reality Check (Adj. R<sup>2</sup2>): -87.7%
+| | | Reality Check (Adj. R<sup>2</sup>): -87.7%
+Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
+| | | Reality Check (Adj. R<sup>2</sup>): 28%
 
