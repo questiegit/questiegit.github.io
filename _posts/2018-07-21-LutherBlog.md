@@ -19,7 +19,7 @@ My plan for the project was the following:
 3. Create a regression model to predict pricing based on the various attributes of a house
 4. Tune the model to minimize prediction error
 
-# THE RESULTS: Kitchen Sink model#
+# THE RESULTS: Kitchen Sink model
 
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
@@ -33,6 +33,7 @@ attributes, its predictions will be significantly off!
 *Can we improve this model?*
 
 I tried a couple of different regression techniques to see if I could tune the model to make a more realistic prediction:
+
 | Model Type | Characteristics | Trustworthiness
 | Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
 | | | Reality Check (Adj. R<sup>2</sup2>): -87.7%
