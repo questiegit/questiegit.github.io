@@ -24,7 +24,7 @@ My plan for the project was the following:
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'Kitchen Sink' model | Factors: 219 | Prediction error (RMSE): $24,362
-| | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>): -5.4%
+ | Explanatory Power (R<sup>2</sup>): 90% | Reality Check (Adj. R<sup>2</sup>): -5.4%
 
 Basically the above model can explain 90% of the price variance of the data it is being trained on, and predict housing price with an error of +/- $24,000.  However, due to the large number 
 of factors the model is controlling for, it is also picking up a lot of random noise in its correlations.  When this model tries to predict using a previously unseen set of housing 
@@ -37,9 +37,9 @@ I tried a couple of different regression techniques to see if I could tune the m
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,926
-| | | Reality Check (Adj. R<sup>2</sup>): -87.7%
+ | | Reality Check (Adj. R<sup>2</sup>): -87.7%
 Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
-| | | Reality Check (Adj. R<sup>2</sup>): 28%
+ | | Reality Check (Adj. R<sup>2</sup>): 28%
 
 To summarize the above, Lasso did not buy me anything since the Adjusted R<sup>2</sup> was still negative.  However, although Ridge had a comparaitively lower explanatory power and higher 
 prediction error, it is a more useful model since it's Adjusted R<sup>2</sup> is positive!
@@ -63,7 +63,7 @@ various attributes with sales price.  I chose the factors to the left of the lef
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'K.I.S.S.' model | Factors: 5 | Prediction error (RMSE): $42,338
-| | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
+ | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
 
 The K.I.S.S. regression model, with just 5 factors, can explain 70% of the price variance in the training data, can predict pricing with a margin of error of approx. $40,000, and the 
 predictions are relatively useful when used for predicting suing a previously unseen data set!
@@ -75,9 +75,9 @@ I tried the same regression techniques as above to see if I could tune the model
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 Lasso: | Explanatory Power (R<sup>2</sup): 71% | Prediction error (RMSE): $41,477
-| | | Reality Check (Adj. R<sup>2</sup>): 28%
+ | | Reality Check (Adj. R<sup>2</sup>): 28%
 Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,531
-| | | Reality Check (Adj. R<sup>2</sup>): 28%
+ | | Reality Check (Adj. R<sup>2</sup>): 28%
 
 The techniques which resulted in signficant improvement to the 'Kitchen Sink' model really did not improve the utility of the straight linear regression of the 'K.I.S.S.' model.  In fact, 
 these techniques resulted in some minor degradation of the model as can be seen when comparing the Adjusted R<sup>2</sup> numbers.
@@ -97,7 +97,7 @@ improved.
 Model Type | Characteristics | Trustworthiness
 -----------|-----------------|----------------
 The 'K.I.S.S.' model (linear, untuned) | Factors: 5 | Prediction error (RMSE): $42,338
-| | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
+ | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
 The 'Kitchen Sink' model (linear, tuned with Ridge regression) | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
-| | | Reality Check (Adj. R<sup>2</sup>): 28%
+ | | Reality Check (Adj. R<sup>2</sup>): 28%
 
