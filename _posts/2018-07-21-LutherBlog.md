@@ -56,7 +56,7 @@ Now it was time to try and reduce the number of factors in the regression model 
 The first four factors had a strong positive correlation, while the last one had a strong negative correlation to the sales price.  The following diagram shows the correlations of the 
 various attributes with sales price.  I chose the factors to the left of the left red line, and to the right of the right red line.
 
-![Correlation](/correlation1.jpg) <!-- .element height="50%" width="50%" -->
+![Correlation image](Correlation1.jpg) <!-- .element height="50%" width="50%" -->
 
 # RESULTS: The K.I.S.S. model
 
