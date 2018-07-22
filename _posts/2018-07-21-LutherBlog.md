@@ -41,5 +41,18 @@ Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,92
 Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
 | | | Reality Check (Adj. R<sup>2</sup>): 28%
 
-To summarize the above, Lasso did not buy me anything since the Adjusted R<sup>2</sup> was still negative.  However, although Ridge had a comparitively lower explanatory power and higher 
-predition error, it is a more useful model since it's Adjusted R<sup>2</sup> is positive!
+To summarize the above, Lasso did not buy me anything since the Adjusted R<sup>2</sup> was still negative.  However, although Ridge had a comparaitively lower explanatory power and higher 
+prediction error, it is a more useful model since it's Adjusted R<sup>2</sup> is positive!
+
+# PROPOSED SOLUTION: K.I.S.S. model
+
+Now it was time to try and reduce the number of factors in the regression model to see if that would result in any improvements.  I chose to use the following 5 factors:
+1. Overall quality of the property
+2. Living Area
+3. Cars in Garage
+4. Garage Area
+5. Age of the Property
+The first four factors had a strong positive correlation, while the last one had a strong negative correlation to the sales price.  The following diagram shows the correlations of the 
+various attributes with sales price.  I chose the factors to the left of the lef red line, and to the right of the right red line.
+
+![alt text](/Correlation1.png "Correlation of Factors with Price")
