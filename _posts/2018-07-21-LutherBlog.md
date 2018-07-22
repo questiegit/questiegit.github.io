@@ -30,7 +30,7 @@ Basically the above model can explain 90% of the price variance of the data it i
 of factors the model is controlling for, it is also picking up a lot of random noise in its correlations.  When this model tries to predict using a previously unseen set of housing 
 attributes, its predictions will be significantly off!
 
-Can we improve this model?*
+*Can we improve this model?*
 
 I tried a couple of different regression techniques to see if I could tune the model to make a more realistic prediction.
 
@@ -41,3 +41,5 @@ Lasso: | Explanatory Power (R<sup>2</sup): 91% | Prediction error (RMSE): $22,92
 Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
 | | | Reality Check (Adj. R<sup>2</sup>): 28%
 
+To summarize the above, Lasso did not buy me anything since the Adjusted R<sup>2</sup> was still negative.  However, although Ridge had a comparitively lower explanatory power and higher 
+predition error, it is a more useful model since it's Adjusted R<sup>2</sup> is positive!
