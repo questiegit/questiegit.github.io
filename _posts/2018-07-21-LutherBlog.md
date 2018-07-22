@@ -56,6 +56,48 @@ Now it was time to try and reduce the number of factors in the regression model 
 The first four factors had a strong positive correlation, while the last one had a strong negative correlation to the sales price.  The following diagram shows the correlations of the 
 various attributes with sales price.  I chose the factors to the left of the left red line, and to the right of the right red line.
 
-![alt text](Correlation1.jpg "Correlation of Factors with Price")
+<img src="correlation1.jpg" width="100" height="100">
 
+# THE RESULTS: K.I.S.S. model
+
+Model Type | Characteristics | Trustworthiness
+-----------|-----------------|----------------
+The 'K.I.S.S.' model | Factors: 5 | Prediction error (RMSE): $42,338
+| | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
+
+The K.I.S.S. regression model, with just 5 factors, can explain 70% of the price variance in the training data, can predict pricing with a margin of error of approx. $40,000, and the 
+predictions are relatively useful when used for predicting suing a previously unseen data set!
+
+*Can we improve this model?*
+
+I tried the same regression techniques as above to see if I could tune the model to make a more realistic prediction.
+
+Model Type | Characteristics | Trustworthiness
+-----------|-----------------|----------------
+Lasso: | Explanatory Power (R<sup>2</sup): 71% | Prediction error (RMSE): $41,477
+| | | Reality Check (Adj. R<sup>2</sup>): 28%
+Ridge: | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,531
+| | | Reality Check (Adj. R<sup>2</sup>): 28%
+
+The techniques which resulted in signficant improvement to the 'Kitchen Sink' model really did not improve the utility of the straight linear regression of the 'K.I.S.S.' model.  In fact, 
+these techniques resulted in some minor degradation of the model as can be seen when comparing the Adjusted R<sup>2</sup> numbers.
+
+# THE ANSWERS:
+
+In conclusion, I wanted to summarize the answers to the questions I had asked at the beginning of this blog:
+
+1. *Question:* Can housing prices be forecasted using historical sales data?
+2. *Answer:* Difficult to predict with accuracy using a linear model.  I need to explore other regression tuning techniques such as Elastic Net to see if my Adjusted R<sup>2</sup> can be 
+improved.
+
+3. *Question:* Do linear models perform better with a larger or smaller number of attributes?
+4. *Answer:* Less is more!  Linear regression models work better with fewer factors.  For reference the table below compares the numbers for the best outcomes of the 'Kitchen Sink' and the 
+'K.I.S.S.' models.
+
+Model Type | Characteristics | Trustworthiness
+-----------|-----------------|----------------
+The 'K.I.S.S.' model | Factors: 5 | Prediction error (RMSE): $42,338
+| | Explanatory Power (R<sup>2</sup>): 70% | Reality Check (Adj. R<sup>2</sup>): 30%
+The 'Kitchen Sink' model (linear, tuned with Ridge regression) | Explanatory Power (R<sup>2</sup>): 71% | Prediction Error (RMSE): $41,533
+| | | Reality Check (Adj. R<sup>2</sup>): 28%
 
